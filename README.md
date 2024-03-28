@@ -12,6 +12,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Run
 
+*Open in visual studio code*
+
 fill in `<insert API Key>` with Ably API key before running
 
 `npm run start`
+
+run the first script available when you hit the 'debug' button on the left hand side of visual studio code. This will allow you to utilize break points.
