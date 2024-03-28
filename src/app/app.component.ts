@@ -10,7 +10,7 @@ export class AppComponent implements OnInit {
   title = 'ably-angular';
   data = '';
 
-  ably = new Ably.Realtime('QE5f4w.GDC4vQ:8iYNQgw7acoIARIMKGJ8WAI5fFzwmkoNbRVQBP4Wpmk');
+  ably = new Ably.Realtime('<insert API Key>');
   channel = this.ably.channels.get('blobtastic');
 
 
